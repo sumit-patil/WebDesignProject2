@@ -1,0 +1,68 @@
+body{
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+#page-wrapper{
+  width: 1060px;
+  margin: 20px auto;
+}
+
+.heading{
+  font-family: 'Snippet', Arial, serif; font-weight: 400; 
+  color: black;
+  text-align: center;
+}
+
+#datagrid table{
+    background: #fff; 
+    overflow: hidden; 
+
+    border-collapse: collapse;
+    text-align: center; 
+    width: 100%;
+
+    -webkit-box-shadow: 5px 7px 10px 10px rgba(22, 33, 55, 1);
+    box-shadow: 5px 7px 10px 10px rgba(22, 33, 55, 1);
+    }
+
+.titleBackgroundClass{
+      background-color:black; 
+      color:white; 
+      font-size: 14px;
+      font-weight: bold; 
+      border-left: 0px solid #B01C26; 
+}
+
+#datagrid table td, #datagrid table th { 
+      padding: 4px 4px; 
+    }
+      
+#datagrid  table tbody tr:hover td {
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#datagrid table tbody td { 
+        border-left: 1px solid #858585;
+        font-size: 12px;
+        font-weight: normal;
+         }
+
+#datagrid table tbody .alt td { 
+        background: #858585;
+         }
